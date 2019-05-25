@@ -3,6 +3,7 @@
 	$result = mysqli_query($conn, "SELECT * FROM datamhs");
 	
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
