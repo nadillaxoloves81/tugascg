@@ -13,6 +13,7 @@
 </head>
 <body>
 	<h1>Daftar Mahasiswa</h1>
+	<a href="add.php">Tambah Data</a><br><br>
 	<table border="1" cellspacing="0" cellpadding="10">
 		<tr>
 			<th>No.</th>
