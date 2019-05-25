@@ -4,7 +4,6 @@
 	
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,9 +35,8 @@
 				<a href="">Edit</a>
 			</td>
 			<td>
-				<a href="">Hapus</a>
+				<a href="hapus.php?id=<?php echo $data['idMhs']; ?>" onclick="return confirm('Apakah yakin akan menghapus data ini?')">Hapus</a>
 			</td>
-
 		<?php } ?>
 		</tr>
 	</table>
